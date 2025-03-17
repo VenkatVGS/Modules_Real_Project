@@ -2,12 +2,12 @@
 variable db_username {
   type        = string
   description = "description"
-  default     = "admin"
+  # default     = "admin"
 }
 
 #DB_PASS
 variable db_password {
   type        = string
   description = "description"
-  default     = "admin123"
+  # default     = "admin123"
 }
