@@ -31,7 +31,7 @@ module "db" {
 }
 
 module "elb" {
-  source = "./modules/elb"
+  source = "./modules3/elb"
   load_balancer_type = var.load_balancer_type_out
 
 }
